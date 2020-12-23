@@ -1,0 +1,20 @@
+GET http://localhost:5000/
+###
+GET http://localhost:5000/5fe2de39c4768ceb9fd89331
+###
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+    "user_name": "JuanGalvez24",
+    "password": "1234"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "user_name": "JuanGal",
+    "password": "1234"
+}
